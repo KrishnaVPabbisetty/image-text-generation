@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.step {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 30%;
+}
+
+h1 {
+  background-color: #4e73df;
+  color: white;
+  padding: 10px;
+}
+
+button {
+  background-color: #4e73df;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+input {
+  margin: 10px 0;
+}
+
+.error {
+  color: red;
+}
+
+.output-container {
+  position: relative;
+  text-align: left;
+}
+
+.copy-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #28a745;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.copy-success {
+  color: green;
+  margin-top: 10px;
+}
